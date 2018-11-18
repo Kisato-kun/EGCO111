@@ -1,0 +1,51 @@
+#include<stdio.h>
+#include<math.h>
+int i,j,h,l,fac=1,a,b;
+void star(int n)
+{
+    if(n%2)
+    {
+        for(i=0,j=n/2,l=1; i<(n/2)+1; printf("\n"),i++,l+=2,j--)
+        {
+            for(h=0; h<j; h++) printf("-");
+            for(h=0; h<l; h++) printf("*");
+            for(h=0; h<j; h++) printf("-");
+        }
+        for(i=0,j=1,l=(n-2); i<(n/2); printf("\n"),i++,l-=2,j++)
+        {
+            for(h=0; h<j; h++) printf("-");
+            for(h=0; h<l; h++) printf("*");
+            for(h=0; h<j; h++) printf("-");
+        }
+    }
+    else
+    {
+        for(i=0,j=(n/2)-1,l=2; i<(n/2); printf("\n"),i++,l+=2,j--)
+        {
+            for(h=0; h<j; h++) printf("-");
+            for(h=0; h<l; h++) printf("*");
+            for(h=0; h<j; h++) printf("-");
+        }
+        for(i=0,j=1,l=(n-2); i<(n/2)-1; printf("\n"),i++,l-=2,j++)
+        {
+            for(h=0; h<j; h++) printf("-");
+            for(h=0; h<l; h++) printf("*");
+            for(h=0; h<j; h++) printf("-");
+        }
+    }
+}
+int factorial (int n)
+{
+    for(i=1; i<=n; i++) fac*=i;
+    return fac;
+}
+int main()
+{
+    printf("Input A : ");
+    scanf("%d",&a);
+    printf("Input B : ");
+    scanf("%d",&b);
+    star(a);
+    star(b);
+    printf("Factorial (A)\t: %d\nFactorial (B)\t: %d\nA/B\t\t: %.2f\nCeil(A/B)\t: %.2f\nFloor(A/B)\t: %.2f",factorial(a),factorial(b),((float)a/b),ceil((float)a/b),floor((float)a/b));
+}
