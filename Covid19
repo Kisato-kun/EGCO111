@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-19T15:46:58.100Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="aCJLDi8IckDkFF-l96WT" version="14.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-20T14:42:38.048Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="67n-80P1qBgdKsEZcgeo" version="14.6.3" type="github" pages="2">
   <diagram id="TIiy1qkti3fU-LozasrD" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -9,14 +9,6 @@
         </mxCell>
         <mxCell id="2ky_4Bss5azs89FGivND-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2ky_4Bss5azs89FGivND-1" target="2ky_4Bss5azs89FGivND-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="uRHmJ84JYtUMZJa22bxn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.029;entryY=0.371;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2ky_4Bss5azs89FGivND-1" target="uRHmJ84JYtUMZJa22bxn-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="360" y="365" />
-              <mxPoint x="360" y="311" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="2ky_4Bss5azs89FGivND-1" value="Susceptible&lt;br&gt;(s)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="355" width="70" height="70" as="geometry" />
@@ -74,27 +66,20 @@
             <mxPoint x="495" y="630" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uRHmJ84JYtUMZJa22bxn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="uRHmJ84JYtUMZJa22bxn-2">
+        <mxCell id="uRHmJ84JYtUMZJa22bxn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="uRHmJ84JYtUMZJa22bxn-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="155" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uRHmJ84JYtUMZJa22bxn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uRHmJ84JYtUMZJa22bxn-2" target="2ky_4Bss5azs89FGivND-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="uRHmJ84JYtUMZJa22bxn-2" value="Foreign Come&lt;br&gt;(F)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="120" width="70" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="uRHmJ84JYtUMZJa22bxn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uRHmJ84JYtUMZJa22bxn-5" target="2ky_4Bss5azs89FGivND-2">
+        <mxCell id="uRHmJ84JYtUMZJa22bxn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="uRHmJ84JYtUMZJa22bxn-2" target="2ky_4Bss5azs89FGivND-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="450" y="310" />
-              <mxPoint x="495" y="310" />
+              <mxPoint x="300" y="190" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uRHmJ84JYtUMZJa22bxn-5" value="Social Distance&lt;br&gt;(Di)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="285" width="70" height="70" as="geometry" />
+        <mxCell id="uRHmJ84JYtUMZJa22bxn-2" value="Foreign Come&lt;br&gt;(F)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="120" width="70" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
