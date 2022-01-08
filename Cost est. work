@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-08T17:30:52.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="LV5cXaYmA3Zcp39lInoP" version="16.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-08T17:58:56.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="SCvAZFaKbb4i2d8r41dv" version="16.0.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -10,11 +10,23 @@
         <mxCell id="1IImo6wGJVffrTv3vD4i-2" value="ผู้ดูแลเขต" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="60" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1IImo6wGJVffrTv3vD4i-3" value="คลังสินค้า" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;fontFamily=Tahoma;" vertex="1" parent="1">
+        <mxCell id="1IImo6wGJVffrTv3vD4i-3" value="ส่วนกลาง" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="60" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1IImo6wGJVffrTv3vD4i-4" value="การซื้อ" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;fontFamily=Tahoma;" vertex="1" parent="1">
+        <mxCell id="1IImo6wGJVffrTv3vD4i-4" value="คลังสินค้า" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="60" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1IImo6wGJVffrTv3vD4i-5" value="สั่งสินค้าลงภายในร้านดูจากสินค้าที่ขาดและความนิยมของสินค้า" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="260" y="50" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1IImo6wGJVffrTv3vD4i-6" value="รวบรวมคำสั่งซื้อของแต่ละร้าน" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="260" y="170" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1IImo6wGJVffrTv3vD4i-7" value="รวบรวมคำสั่งซื้อของแต่ละเขต" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="260" y="290" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1IImo6wGJVffrTv3vD4i-8" value="จัดเตรียมสินค้าตามคำสั่งซื้อ" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="230" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
